@@ -1,0 +1,27 @@
+.landing {
+  padding: 80px 0;
+  background-color: #1abc9c;
+}
+
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+img {
+  width: 250px;
+}
+
+.left,
+.right {
+  height: 5px;
+  width: 80px;
+  background-color: white;
+  margin: 0 20px;
+}
+.stars i {
+  font-size: 48px;
+  color: white;
+}

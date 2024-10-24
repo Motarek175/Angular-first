@@ -1,0 +1,34 @@
+.landing {
+  padding: 80px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.left,
+.right {
+  height: 4px;
+  width: 100px;
+  background-color: black;
+  margin: 0 15px;
+}
+.stars i {
+  font-size: 35px;
+  color: black;
+}
+
+button {
+  width: fit-content;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  background-color: #1abc9c !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

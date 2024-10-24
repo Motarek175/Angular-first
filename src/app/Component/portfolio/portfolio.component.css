@@ -1,0 +1,55 @@
+.landing {
+  padding: 80px;
+}
+
+.left,
+.right {
+  height: 4px;
+  width: 80px;
+  background-color: black;
+  margin: 0 15px;
+}
+.stars i {
+  font-size: 35px;
+  color: black;
+}
+
+.col-md-4 {
+  position: relative;
+}
+
+.col-md-4 .img {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.col-md-4 .img span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Corrected */
+  color: white;
+  font-size: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+.col-md-4 .img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1abc9cc0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.col-md-4 .img:hover span {
+  transform: translate(-50%, -50%) scale(1);
+  transition-delay: 0.1s;
+}
+
+.col-md-4 .img:hover::before {
+  opacity: 1;
+}
